@@ -22,7 +22,7 @@ function setup() {
 	ground = new Ground(400,180,800,20);
 	
 	ball = new Ball(150,130,20)
-	dustbin = new Dustbin(625,60,80,80);
+	dustbin = new Dustbin(625,370,80,80);
 	Engine.run(engine);
   
 }
