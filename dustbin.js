@@ -15,7 +15,7 @@ class Dustbin{
         var pos =this.body.position;
         var angle = this.body.angle;
         push();
-        translate(pos.x, pos.y);
+        translate(625,140);
         rotate(angle);
         imageMode(CENTER);
       
