@@ -5,7 +5,7 @@ class Dustbin{
             friction:10.0,
               isStatic:true,  
         }
-        this.body = Bodies.rectangle(x, y, width, height, options);
+        this.body = Bodies.rectangle(625, 40, width, height, options);
         this.width = width;
         this.height = height;
     
